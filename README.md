@@ -1,5 +1,5 @@
 # Tello-HCI-tracking
 
-## face tracking
-## body following
-## gesture control
+## ch1:face tracking
+## ch2:body following
+## ch3:gesture control
