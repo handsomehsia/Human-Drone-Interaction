@@ -1,0 +1,3 @@
+djitellopy
+matplotlib
+seaborn
