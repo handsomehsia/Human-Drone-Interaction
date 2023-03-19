@@ -2,10 +2,15 @@ import cv2
 from cvzone.PoseModule import PoseDetector
 
 cap = cv2.VideoCapture(0)
+# width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
+# height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
+# print(width, height)
+
 detector = PoseDetector(upBody=True)
 
 while True:
     _, img = cap.read()
+
     img = detector.findPose(img, draw=False)
     lmList, bboxInfo = detector.findPosition(
         img, draw=False, bboxWithHands=False)

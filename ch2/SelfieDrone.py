@@ -5,7 +5,7 @@ from djitellopy import tello
 import cvzone
 
 
-detector = PoseDetector(upBody=True)
+detector = PoseDetector(upBody=True, detectionCon=0.8)
 
 hi, wi = 480, 640
 
@@ -37,7 +37,7 @@ print(me.get_battery())
 me.streamoff()
 me.streamon()
 me.takeoff()
-time.sleep(3)
+time.sleep(5)
 me.move_up(80)
 
 while True:
@@ -113,9 +113,10 @@ while True:
     else:
         me.send_rc_control(0, 0, 0, 0)
 
-    imageStacked = cvzone.stackImages(
-        [img, imgPlotX, imgPlotY, imgPlotZ], 2, 0.75)
-    cv2.imshow("Image", imageStacked)
+    # imageStacked = cvzone.stackImages(
+    #     [img, imgPlotX, imgPlotY, imgPlotZ], 2, 0.75)
+    # cv2.imshow("Image", imageStacked)
+    cv2.imshow("Image", img)
     if cv2.waitKey(5) & 0xFF == ord('q'):
         me.land()
         break
