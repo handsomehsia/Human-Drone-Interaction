@@ -1,4 +1,4 @@
-# Tello-Human-Computer-Interaction
+# Tello-Human-Drone-Interaction
 > The demo GIF you see on the down below are mostly shoot by drone camera.
 > 
 > Please forgive me for the different sizes of GIF files :(
