@@ -22,10 +22,10 @@ vosk==0.3.43
 
 ## Chapter 1. Face Tracking Drone
 * Drone follows user's face with mediapipe framework and PID controller (`FaceTrackingDrone.py`)
-<!-- * ## ![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODhlOWI1ZDY2YmMzYWZiYWI2ZWNkNGE3Njc5MGRkYzA2NWJhMjI1OSZjdD1n/Xk6Yj8LhScHJOyzdYq/giphy.gif) -->
+* ## ![Alt Text](https://media.giphy.com/media/Xk6Yj8LhScHJOyzdYq/giphy.gif)
 ## Chapter 2. Selfie Drone
 * Human armpose interaction while drone tracking human body automatically (`SelfieDrone.py`)
-* ## ![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDc4ZGVkYWZjNTBlNzU5YWY3YTI4ZGExZThjZmM0MTQzM2UzY2YxOSZjdD1n/4kmzzzdDzIydQY3Xkm/giphy-downsized-large.gif)
+* ## ![Alt Text](https://media.giphy.com/media/KebTMAB1N7YnPKTBQO/giphy-downsized.gif)
 ## Chapter 3. Hand Gesture Control
 * Drone control with finger gesture (`HandGestureDrone.py`)
 * You can basicly define your own gestures, here I use finger node detection from mediapipe model. However, You can also train your own NN model.
