@@ -5,7 +5,7 @@
  
 
 ## Pre-requisite
-
+ 
 ### hardware
 * Tello Drone/ Tello EDU/ Robomaster TT any of them is fine (the reason is the repo here only apply AP mode. If you wanna learn [swarm project]() plz go to another repo)
 
