@@ -22,14 +22,14 @@ vosk==0.3.43
 
 ## Chapter 1. Face Tracking Drone
 * Drone follows user's face with mediapipe framework and PID controller (`FaceTrackingDrone.py`)
-* ## ![Alt Text](https://media.giphy.com/media/Xk6Yj8LhScHJOyzdYq/giphy.gif)
+ ## ![Alt Text](https://media.giphy.com/media/Xk6Yj8LhScHJOyzdYq/giphy.gif)
 ## Chapter 2. Selfie Drone
 * Human armpose interaction while drone tracking human body automatically (`SelfieDrone.py`)
-* ## ![Alt Text](https://media.giphy.com/media/4kmzzzdDzIydQY3Xkm/giphy-downsized.gif)
+ ## ![Alt Text](https://media.giphy.com/media/4kmzzzdDzIydQY3Xkm/giphy-downsized.gif)
 ## Chapter 3. Hand Gesture Control
 * Drone control with finger gesture (`HandGestureDrone.py`)
 * You can basicly define your own gestures, here I use finger node detection from mediapipe model. However, You can also train your own NN model.
-* ## ![Alt Text](https://media.giphy.com/media/vd3AIxSkZ17tIwMN3a/giphy-downsized.gif)
+ ## ![Alt Text](https://media.giphy.com/media/vd3AIxSkZ17tIwMN3a/giphy-downsized.gif)
 ## Chapter 4. Voice Command Control
 * Drone control with voice command (`VoiceControlDrone.py`)
 * Applied vosk model to recognize the voice command with en-us model. You can chose your own language forsure
@@ -37,6 +37,6 @@ vosk==0.3.43
 ## Chapter 5.   Drone Tracking Drone Control
 * Applied HSV recogniztion to detect the color marker.
 * Tracked the marker with PID controller (`DroneTrackDrone.py`)
-* ## ![Alt Text](https://media.giphy.com/media/RSqhVEIsTpisBJ3E1N/giphy-downsized.gif)
+ ## ![Alt Text](https://media.giphy.com/media/RSqhVEIsTpisBJ3E1N/giphy-downsized.gif)
 
-* ## ![Alt Text](https://media.giphy.com/media/x43hEFaOaxsUrO4fmC/giphy-downsized.gif)
+ ## ![Alt Text](https://media.giphy.com/media/x43hEFaOaxsUrO4fmC/giphy-downsized.gif)
